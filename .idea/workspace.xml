@@ -4,31 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d77e9ff8-86a6-4697-ab08-d30dc50c7f75" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/ArrayService/ArrayService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/ArrayService/ArrayServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/DayOfTheWeekDetector/DayOfTheWeekDetector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/DayOfTheWeekDetector/DayOfTheWeekDetectorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/DayOfTheWeekDetector/DayOfTheWeekDetectorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/ForInfiniteLoop/ForInfiniteLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/ForInfiniteLoop/ForInfiniteLoopBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/ForInfiniteLoop/ForLoopContinue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/ForInfiniteLoop/TwoDimensionalArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/TicTacToe/Move.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/TicTacToe/TicTacToe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/TicTacToe/TicTacToeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/WhileDefinition/WhileDefinition1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/WhileDefinition/WhileDefinition2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/WhileDefinition/WhileDefinition3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/WhileDefinition/WhileDefinition4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/WhileDefinition/WhileDefinition5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/WhileDefinition/WhileDefinition6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/WhileInfiniteLoop/WhileInfiniteLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/WhileInfiniteLoop/WhileInfiniteLoopBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/WhileInfiniteLoop/WhileLoopContinue.java" afterDir="false" />
+    <list default="true" id="d77e9ff8-86a6-4697-ab08-d30dc50c7f75" name="Changes" comment="1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/chill/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chill/Chill.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_4/SwitchCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_4/SwitchCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_5/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_5/Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,13 +91,17 @@
     "Application.ArrayLength2.executor": "Run",
     "Application.BankSystem.executor": "Run",
     "Application.BookDemo.executor": "Run",
+    "Application.Calc.executor": "Run",
     "Application.CalculatorTest.executor": "Run",
+    "Application.Chill.executor": "Run",
     "Application.DogDemo.executor": "Run",
+    "Application.FizzBuzzTest.executor": "Run",
     "Application.GuessNumber.executor": "Run",
     "Application.HomeWork.executor": "Run",
     "Application.IfElse.executor": "Run",
     "Application.LoginService.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MyScanner.executor": "Run",
     "Application.ObjectsMobilePhone.executor": "Run",
     "Application.Practice.executor": "Debug",
     "Application.Randomizer.executor": "Run",
@@ -206,7 +189,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709476856520</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1">
+      <option name="closed" value="true" />
+      <created>1709661591112</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709661591112</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1">
+      <option name="closed" value="true" />
+      <created>1709661743372</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709661743372</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,8 +221,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hello World!" />
-    <MESSAGE value="1" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>
