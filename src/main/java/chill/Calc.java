@@ -7,7 +7,7 @@ public class Calc {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Chill chill");
+        System.out.println("HomeWorkLesson2Update chill");
         System.out.println("print a first number");
         double num1 = scanner.nextDouble();
 
@@ -40,6 +40,7 @@ public class Calc {
                 return;
         }
         System.out.println("Result is: " + result);
+
         scanner.close();
     }
 }

@@ -9,7 +9,7 @@ public class HomeWorkLesson2 {
         Scanner scanner = new Scanner(System.in);
 
         // Массив для хранения имен
-        String[] names = new String[10];
+        String[] names = new String[5];
 
         // Цикл для запроса имен у пользователя
         for (int i = 0; i < names.length; i++) {
@@ -22,6 +22,7 @@ public class HomeWorkLesson2 {
         System.out.print("Hello ");
         for (String name : names) {
             System.out.print(name + " ");
+
         }
     }
 }

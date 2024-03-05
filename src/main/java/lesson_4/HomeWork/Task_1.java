@@ -14,6 +14,8 @@ public class Task_1 {
             System.out.println("Provided number is negative");
         } else {
             System.out.println("Provided number is positive");
+
+            scanner.close();
         }
     }
 }
