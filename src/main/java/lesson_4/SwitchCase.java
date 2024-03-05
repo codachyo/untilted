@@ -16,7 +16,7 @@ public class SwitchCase {
             case 1:
                 System.out.println("kris <3");
                 break;
-                //break - останавливает выполнение
+            //break - останавливает выполнение
             case 2:
                 System.out.println("mila");
                 break;

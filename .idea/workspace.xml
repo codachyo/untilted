@@ -4,68 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d77e9ff8-86a6-4697-ab08-d30dc50c7f75" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/qodana_code_quality.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_2/Chill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_2/HomeWorkLesson2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_2/MyScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_3/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_3/BankSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_3/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_3/BookDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_3/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_3/DogDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_3/MobilePhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_3/ObjectsMobilePhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_3/Randomizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_3/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_3/RobotDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_4/HomeWork/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_4/HomeWork/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_4/HomeWork/Task_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_4/HomeWork/Task_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_4/HomeWork/Task_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_4/HomeWork/Task_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_4/HomeWork/Task_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_4/HomeWork/Task_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_4/HomeWork/Task_7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_4/IfElse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_4/SwitchCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_5/CodeCorrection/ArrayDefinition1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_5/CodeCorrection/ArrayDefinition2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_5/CodeCorrection/ArrayDefinition3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_5/CodeCorrection/ArrayDefinition4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_5/CodeCorrection/ArrayDefinition5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_5/CodeCorrection/ArrayDefinition6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_5/CodeCorrection/ArrayLength1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_5/CodeCorrection/ArrayLength2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_5/CodeCorrection/ArrayLength3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_5/GuessNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_5/Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_5/Task_10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_5/Task_11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_5/Task_25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_5/Task_26.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_5/Task_27.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_5/Task_28.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_5/Task_29.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_5/Task_30.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="d77e9ff8-86a6-4697-ab08-d30dc50c7f75" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/ArrayService/ArrayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/ArrayService/ArrayServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/DayOfTheWeekDetector/DayOfTheWeekDetector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/DayOfTheWeekDetector/DayOfTheWeekDetectorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/DayOfTheWeekDetector/DayOfTheWeekDetectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/ForInfiniteLoop/ForInfiniteLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/ForInfiniteLoop/ForInfiniteLoopBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/ForInfiniteLoop/ForLoopContinue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/ForInfiniteLoop/TwoDimensionalArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/TicTacToe/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/TicTacToe/TicTacToe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/TicTacToe/TicTacToeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/WhileDefinition/WhileDefinition1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/WhileDefinition/WhileDefinition2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/WhileDefinition/WhileDefinition3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/WhileDefinition/WhileDefinition4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/WhileDefinition/WhileDefinition5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/WhileDefinition/WhileDefinition6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/WhileInfiniteLoop/WhileInfiniteLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/WhileInfiniteLoop/WhileInfiniteLoopBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/WhileInfiniteLoop/WhileLoopContinue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_4/SwitchCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_4/SwitchCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_5/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_5/Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,8 +69,16 @@
     <toolWindowGroupBy>Class</toolWindowGroupBy>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="marktupilenko" />
+        <option value="marktupilenko@gmail.com" />
+        <option value="codachyo" />
+      </list>
+    </option>
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="d051700d-3ebe-4e42-a001-09c905375c4c" />
@@ -149,7 +120,7 @@
     "Application.LoginService.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ObjectsMobilePhone.executor": "Run",
-    "Application.Practice.executor": "Run",
+    "Application.Practice.executor": "Debug",
     "Application.Randomizer.executor": "Run",
     "Application.RobotDemo.executor": "Run",
     "Application.SumTwoNumbers.executor": "Run",
@@ -162,6 +133,10 @@
     "Application.Task_5.executor": "Run",
     "Application.Task_6.executor": "Run",
     "Application.Task_7.executor": "Run",
+    "Application.WhileDefinition1.executor": "Run",
+    "Application.WhileDefinition2.executor": "Run",
+    "Application.WhileDefinition4.executor": "Run",
+    "Application.WhileDefinition5.executor": "Run",
     "Application.YEsNo.executor": "Run",
     "Application.chill.executor": "Run",
     "Application.myScanner.executor": "Run",
@@ -184,17 +159,12 @@
     "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "scala_project_settings_configurable.last_selected_tab_index": "0",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "settings.editor.selected.configurable": "settings.qodana"
   }
 }]]></component>
   <component name="QodanaCIConfigService">
     <option name="ciType" value="GITHUB" />
     <option name="path" value="$PROJECT_DIR$/.github/workflows/qodana_code_quality.yml" />
-  </component>
-  <component name="QodanaReportsService">
-    <option name="descriptions">
-      <ReportDescription localRun="true" path="C:\Users\markt\AppData\Local\Temp\qodana_output\qodana.sarif.json" publishedReportLink="https://qodana.cloud/projects/Am5em/reports/Gvnbj" reportGuid="b22b1c02-aac0-4d25-80a8-491bc223e5a8" reportId="untitled/qodana/2024-03-03" />
-    </option>
   </component>
   <component name="ScalaProjectSettings">
     <option name="intInjectionMapping">
@@ -228,6 +198,15 @@
       <option name="presentableId" value="Default" />
       <updated>1708449842823</updated>
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <option name="closed" value="true" />
+      <created>1709476856520</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709476856520</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,22 +214,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Hello World!" />
+    <MESSAGE value="1" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
