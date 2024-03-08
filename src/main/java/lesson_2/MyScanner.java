@@ -9,6 +9,7 @@ public class MyScanner {
 
         // Считываем строку и выводим ее
         System.out.println("Введите ваше имя:");
+
         String name = scanner.nextLine();
         System.out.println("Привет, " + name + "!");
 

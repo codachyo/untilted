@@ -5,11 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d77e9ff8-86a6-4697-ab08-d30dc50c7f75" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chill/HomeWorkLesson2Update.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_7/ArrayCopy/ArrayCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_7/ArrayCopy/ArrayCopyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_7/CreditCard/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_7/CreditCard/CreditCardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_7/CreditCard/OperationResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_7/Palidrome/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_7/Palidrome/PalindromeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_7/PowerCalculator/PowerCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_7/PowerCalculator/PowerCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_7/UserEntity/TransactionResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_7/UserEntity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_7/UserEntity/UserEntityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_7/UserEntity/UserEntityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_7/WordService/WordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_7/WordService/WordServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_7/WordServiceUpd/WordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_7/WordServiceUpd/WordServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chill/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chill/Calc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_2/Chill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_2/Chill.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson_2/HomeWorkLesson2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_2/HomeWorkLesson2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_4/HomeWork/Task_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_4/HomeWork/Task_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_2/MyScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_2/MyScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_3/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_3/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_5/GuessNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_5/GuessNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,11 +125,13 @@
     "Application.Main.executor": "Run",
     "Application.MyScanner.executor": "Run",
     "Application.ObjectsMobilePhone.executor": "Run",
+    "Application.PowerCalculatorTest.executor": "Run",
     "Application.Practice.executor": "Debug",
     "Application.Randomizer.executor": "Run",
     "Application.RobotDemo.executor": "Run",
     "Application.SumTwoNumbers.executor": "Run",
     "Application.SwitchCase.executor": "Run",
+    "Application.SwitchCaseUpdate.executor": "Run",
     "Application.Task_1.executor": "Run",
     "Application.Task_11.executor": "Run",
     "Application.Task_2.executor": "Run",
@@ -120,6 +140,7 @@
     "Application.Task_5.executor": "Run",
     "Application.Task_6.executor": "Run",
     "Application.Task_7.executor": "Run",
+    "Application.TicTacToe.executor": "Run",
     "Application.WhileDefinition1.executor": "Run",
     "Application.WhileDefinition2.executor": "Run",
     "Application.WhileDefinition4.executor": "Run",
@@ -143,10 +164,10 @@
     "onboarding.tips.debug.path": "C:/Users/markt/intellj/untitled/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "scala_project_settings_configurable.last_selected_tab_index": "0",
-    "settings.editor.selected.configurable": "settings.qodana"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="QodanaCIConfigService">
@@ -217,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709663779818</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1">
+      <option name="closed" value="true" />
+      <created>1709664621963</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709664621963</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

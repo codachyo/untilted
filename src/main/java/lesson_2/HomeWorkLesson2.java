@@ -22,7 +22,7 @@ public class HomeWorkLesson2 {
         System.out.print("Hello ");
         for (String name : names) {
             System.out.print(name + " ");
-
+            scanner.close();
         }
     }
 }
