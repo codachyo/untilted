@@ -5,65 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d77e9ff8-86a6-4697-ab08-d30dc50c7f75" name="Changes" comment="1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/chill/gachi_game/GachiGameDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chill/gachi_game/Josifs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chill/gachi_game/Mark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chill/gachi_game/Persons.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_4/HomeWork/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_4/homeWork/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_4/HomeWork/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_4/homeWork/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_4/HomeWork/Task_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_4/homeWork/Task_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_4/HomeWork/Task_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_4/homeWork/Task_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_4/HomeWork/Task_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_4/homeWork/Task_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_4/HomeWork/Task_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_4/homeWork/Task_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_4/HomeWork/Task_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_4/homeWork/Task_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_4/HomeWork/Task_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_4/homeWork/Task_6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_4/HomeWork/Task_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_4/homeWork/Task_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_5/CodeCorrection/ArrayDefinition1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_5/сodeCorrection/ArrayDefinition1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_5/CodeCorrection/ArrayDefinition2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_5/сodeCorrection/ArrayDefinition2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_5/CodeCorrection/ArrayDefinition3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_5/сodeCorrection/ArrayDefinition3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_5/CodeCorrection/ArrayDefinition4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_5/сodeCorrection/ArrayDefinition4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_5/CodeCorrection/ArrayDefinition5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_5/сodeCorrection/ArrayDefinition5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_5/CodeCorrection/ArrayDefinition6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_5/сodeCorrection/ArrayDefinition6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_5/CodeCorrection/ArrayLength1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_5/сodeCorrection/ArrayLength1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_5/CodeCorrection/ArrayLength2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_5/сodeCorrection/ArrayLength2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_5/CodeCorrection/ArrayLength3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_5/сodeCorrection/ArrayLength3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/ArrayService/ArrayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/arrayService/ArrayService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/ArrayService/ArrayServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/arrayService/ArrayServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/DayOfTheWeekDetector/DayOfTheWeekDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/dayOfTheWeekDetector/DayOfTheWeekDetector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/DayOfTheWeekDetector/DayOfTheWeekDetectorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/dayOfTheWeekDetector/DayOfTheWeekDetectorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/DayOfTheWeekDetector/DayOfTheWeekDetectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/dayOfTheWeekDetector/DayOfTheWeekDetectorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/FizzBuzz/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/fizzBuzz/FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/FizzBuzz/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/fizzBuzz/FizzBuzzTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/ForInfiniteLoop/ForInfiniteLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/forInfiniteLoop/ForInfiniteLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/ForInfiniteLoop/ForInfiniteLoopBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/forInfiniteLoop/ForInfiniteLoopBreak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/ForInfiniteLoop/ForLoopContinue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/forInfiniteLoop/ForLoopContinue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/ForInfiniteLoop/TwoDimensionalArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/forInfiniteLoop/TwoDimensionalArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/TicTacToe/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/ticTacToe/Move.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/TicTacToe/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/ticTacToe/TicTacToe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/TicTacToe/TicTacToeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/ticTacToe/TicTacToeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/WhileDefinition/WhileDefinition1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/whileDefinition/WhileDefinition1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/WhileDefinition/WhileDefinition2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/whileDefinition/WhileDefinition2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/WhileDefinition/WhileDefinition3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/whileDefinition/WhileDefinition3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/WhileDefinition/WhileDefinition4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/whileDefinition/WhileDefinition4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/WhileDefinition/WhileDefinition5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/whileDefinition/WhileDefinition5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/WhileDefinition/WhileDefinition6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/whileDefinition/WhileDefinition6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/WhileInfiniteLoop/WhileInfiniteLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/whileInfiniteLoop/WhileInfiniteLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/WhileInfiniteLoop/WhileInfiniteLoopBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/whileInfiniteLoop/WhileInfiniteLoopBreak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/WhileInfiniteLoop/WhileLoopContinue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/whileInfiniteLoop/WhileLoopContinue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_7/ArrayCopy/ArrayCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_7/arrayCopy/ArrayCopy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_7/ArrayCopy/ArrayCopyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_7/arrayCopy/ArrayCopyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_7/CreditCard/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_7/creditCard/CreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_7/CreditCard/CreditCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_7/creditCard/CreditCardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_7/CreditCard/OperationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_7/creditCard/OperationResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_7/Palidrome/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_7/palidrome/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_7/Palidrome/PalindromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_7/palidrome/PalindromeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_7/PowerCalculator/PowerCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_7/powerCalculator/PowerCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_7/PowerCalculator/PowerCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_7/powerCalculator/PowerCalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_7/UserEntity/TransactionResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_7/userEntity/TransactionResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_7/UserEntity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_7/userEntity/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_7/UserEntity/UserEntityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_7/userEntity/UserEntityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_7/UserEntity/UserEntityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_7/userEntity/UserEntityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_7/WordService/WordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_7/wordService/WordService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_7/WordService/WordServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_7/wordService/WordServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_7/WordServiceUpd/WordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_7/wordServiceUpd/WordService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_7/WordServiceUpd/WordServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_7/wordServiceUpd/WordServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +43,7 @@
       <list>
         <option value="package-info" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -141,74 +88,106 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArrayDefinition2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayLength2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BankSystem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BookDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Calc.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalculatorTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Chill.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DogDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FizzBuzzTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GuessNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HomeWork.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HomeWorkLesson2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HomeWorkLesson2Update.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IfElse.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoginService.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyScanner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObjectsMobilePhone.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PowerCalculatorTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Practice.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Randomizer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RobotDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumTwoNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwitchCase.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwitchCaseUpdate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task_1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task_11.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task_2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task_3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task_30.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task_5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task_6.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task_7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TicTacToe.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WhileDefinition1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WhileDefinition2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WhileDefinition4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WhileDefinition5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.YEsNo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.chill.executor&quot;: &quot;Run&quot;,
-    &quot;Application.myScanner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.task_10.executor&quot;: &quot;Run&quot;,
-    &quot;Application.task_11.executor&quot;: &quot;Run&quot;,
-    &quot;Application.test.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.untitled [:Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.untitled [:test.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.untitled.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/markt/intellj/untitled/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;scala_project_settings_configurable.last_selected_tab_index&quot;: &quot;0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayDefinition2.executor": "Run",
+    "Application.ArrayLength2.executor": "Run",
+    "Application.BankSystem.executor": "Run",
+    "Application.BookDemo.executor": "Run",
+    "Application.Calc.executor": "Run",
+    "Application.CalculatorTest.executor": "Run",
+    "Application.Chill.executor": "Run",
+    "Application.DogDemo.executor": "Run",
+    "Application.FizzBuzzTest.executor": "Run",
+    "Application.GachiGameDemo.executor": "Run",
+    "Application.GuessNumber.executor": "Run",
+    "Application.HomeWork.executor": "Run",
+    "Application.HomeWorkLesson2.executor": "Run",
+    "Application.HomeWorkLesson2Update.executor": "Run",
+    "Application.IfElse.executor": "Run",
+    "Application.LoginService.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MyScanner.executor": "Run",
+    "Application.ObjectsMobilePhone.executor": "Run",
+    "Application.PowerCalculatorTest.executor": "Run",
+    "Application.Practice.executor": "Debug",
+    "Application.Randomizer.executor": "Run",
+    "Application.RobotDemo.executor": "Run",
+    "Application.SumTwoNumbers.executor": "Run",
+    "Application.SwitchCase.executor": "Run",
+    "Application.SwitchCaseUpdate.executor": "Run",
+    "Application.Task_1.executor": "Run",
+    "Application.Task_11.executor": "Run",
+    "Application.Task_2.executor": "Run",
+    "Application.Task_3.executor": "Run",
+    "Application.Task_30.executor": "Run",
+    "Application.Task_5.executor": "Run",
+    "Application.Task_6.executor": "Run",
+    "Application.Task_7.executor": "Run",
+    "Application.TicTacToe.executor": "Run",
+    "Application.WhileDefinition1.executor": "Run",
+    "Application.WhileDefinition2.executor": "Run",
+    "Application.WhileDefinition4.executor": "Run",
+    "Application.WhileDefinition5.executor": "Run",
+    "Application.YEsNo.executor": "Run",
+    "Application.chill.executor": "Run",
+    "Application.myScanner.executor": "Run",
+    "Application.task_10.executor": "Run",
+    "Application.task_11.executor": "Run",
+    "Application.test.executor": "Run",
+    "Gradle.untitled [:Main.main()].executor": "Run",
+    "Gradle.untitled [:test.main()].executor": "Run",
+    "Gradle.untitled.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "chill.gachi_game.Persons",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/markt/intellj/untitled/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "scala_project_settings_configurable.last_selected_tab_index": "0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="QodanaCIConfigService">
     <option name="ciType" value="GITHUB" />
     <option name="path" value="$PROJECT_DIR$/.github/workflows/qodana_code_quality.yml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="chill.gachi_game.Persons" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="chill.gachi_game" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GachiGameDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chill.gachi_game.GachiGameDemo" />
+      <module name="untitled.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chill.gachi_game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GachiGameDemo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ScalaProjectSettings">
     <option name="intInjectionMapping">
@@ -290,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709930601678</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1">
+      <option name="closed" value="true" />
+      <created>1710069224666</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710069224666</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
