@@ -1,0 +1,973 @@
+Index: src/main/java/lesson_8/shape/ShapeUtilDemo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/shape/ShapeUtilDemo.java b/src/main/java/lesson_8/shape/ShapeUtilDemo.java
+new file mode 100644
+--- /dev/null	(date 1710091372853)
++++ b/src/main/java/lesson_8/shape/ShapeUtilDemo.java	(date 1710091372853)
+@@ -0,0 +1,17 @@
++package lesson_8.shape;
++
++class ShapeUtilDemo {
++    public static void main(String[] args) {
++        ShapeUtil shapeUtil = new ShapeUtil();
++
++        Shape circle = shapeUtil.createRandomCircle();
++        double circleArea = shapeUtil.calculateArea(circle);
++        double circlePerimeter = shapeUtil.calculatePerimeter(circle);
++        System.out.println("Circle: area = " + circleArea + " perimeter = " + circlePerimeter);
++
++        Shape square = shapeUtil.createRandomSquare();
++        double squareArea = shapeUtil.calculateArea(square);
++        double squarePerimeter = shapeUtil.calculatePerimeter(square);
++        System.out.println("Square: area = " + squareArea + " perimeter = " + squarePerimeter);
++    }
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"d77e9ff8-86a6-4697-ab08-d30dc50c7f75\" name=\"Changes\" comment=\"1\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/chill/gachi_game/GachiGameDemo.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/chill/gachi_game/Josifs.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/chill/gachi_game/Mark.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/chill/gachi_game/Persons.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ExternalProjectsData\">\r\n    <projectState path=\"$PROJECT_DIR$\">\r\n      <ProjectState />\r\n    </projectState>\r\n  </component>\r\n  <component name=\"ExternalProjectsManager\">\r\n    <system id=\"GRADLE\">\r\n      <state>\r\n        <projects_view>\r\n          <tree_state>\r\n            <expand>\r\n              <path>\r\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\r\n                <item name=\"untitled\" type=\"f1a62948:ProjectNode\" />\r\n              </path>\r\n            </expand>\r\n            <select />\r\n          </tree_state>\r\n        </projects_view>\r\n      </state>\r\n    </system>\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"package-info\" />\r\n        <option value=\"Class\" />\r\n        <option value=\"JUnit5 Test Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"FindBugs-IDEA-Workspace\">\r\n    <toolWindowGroupBy>Class</toolWindowGroupBy>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PREVIOUS_COMMIT_AUTHORS\">\r\n      <list>\r\n        <option value=\"marktupilenko\" />\r\n        <option value=\"marktupilenko@gmail.com\" />\r\n        <option value=\"codachyo\" />\r\n      </list>\r\n    </option>\r\n    <option name=\"PUSH_AUTO_UPDATE\" value=\"true\" />\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"RESET_MODE\" value=\"MIXED\" />\r\n  </component>\r\n  <component name=\"GithubDefaultAccount\">\r\n    <option name=\"defaultAccountId\" value=\"d051700d-3ebe-4e42-a001-09c905375c4c\" />\r\n  </component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"file://$PROJECT_DIR$/src/main/java/lesson_4/HomeWork/Calculator.java\" root0=\"FORCE_HIGHLIGHTING\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectCodeStyleSettingsMigration\">\r\n    <option name=\"version\" value=\"2\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2cdmU0Sbks6FhZtfzLdnFQFV6uR\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.ArrayDefinition2.executor\": \"Run\",\r\n    \"Application.ArrayLength2.executor\": \"Run\",\r\n    \"Application.BankSystem.executor\": \"Run\",\r\n    \"Application.BookDemo.executor\": \"Run\",\r\n    \"Application.Calc.executor\": \"Run\",\r\n    \"Application.CalculatorTest.executor\": \"Run\",\r\n    \"Application.Chill.executor\": \"Run\",\r\n    \"Application.DogDemo.executor\": \"Run\",\r\n    \"Application.FizzBuzzTest.executor\": \"Run\",\r\n    \"Application.GachiGameDemo.executor\": \"Run\",\r\n    \"Application.GuessNumber.executor\": \"Run\",\r\n    \"Application.HomeWork.executor\": \"Run\",\r\n    \"Application.HomeWorkLesson2.executor\": \"Run\",\r\n    \"Application.HomeWorkLesson2Update.executor\": \"Run\",\r\n    \"Application.IfElse.executor\": \"Run\",\r\n    \"Application.LoginService.executor\": \"Run\",\r\n    \"Application.Main.executor\": \"Run\",\r\n    \"Application.MyScanner.executor\": \"Run\",\r\n    \"Application.ObjectsMobilePhone.executor\": \"Run\",\r\n    \"Application.PowerCalculatorTest.executor\": \"Run\",\r\n    \"Application.Practice.executor\": \"Debug\",\r\n    \"Application.Randomizer.executor\": \"Run\",\r\n    \"Application.RobotDemo.executor\": \"Run\",\r\n    \"Application.SumTwoNumbers.executor\": \"Run\",\r\n    \"Application.SwitchCase.executor\": \"Run\",\r\n    \"Application.SwitchCaseUpdate.executor\": \"Run\",\r\n    \"Application.Task_1.executor\": \"Run\",\r\n    \"Application.Task_11.executor\": \"Run\",\r\n    \"Application.Task_2.executor\": \"Run\",\r\n    \"Application.Task_3.executor\": \"Run\",\r\n    \"Application.Task_30.executor\": \"Run\",\r\n    \"Application.Task_5.executor\": \"Run\",\r\n    \"Application.Task_6.executor\": \"Run\",\r\n    \"Application.Task_7.executor\": \"Run\",\r\n    \"Application.TicTacToe.executor\": \"Run\",\r\n    \"Application.WhileDefinition1.executor\": \"Run\",\r\n    \"Application.WhileDefinition2.executor\": \"Run\",\r\n    \"Application.WhileDefinition4.executor\": \"Run\",\r\n    \"Application.WhileDefinition5.executor\": \"Run\",\r\n    \"Application.YEsNo.executor\": \"Run\",\r\n    \"Application.chill.executor\": \"Run\",\r\n    \"Application.myScanner.executor\": \"Run\",\r\n    \"Application.task_10.executor\": \"Run\",\r\n    \"Application.task_11.executor\": \"Run\",\r\n    \"Application.test.executor\": \"Run\",\r\n    \"Gradle.untitled [:Main.main()].executor\": \"Run\",\r\n    \"Gradle.untitled [:test.main()].executor\": \"Run\",\r\n    \"Gradle.untitled.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary\": \"JUnit5\",\r\n    \"com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5\": \"chill.gachi_game.Persons\",\r\n    \"com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"jdk.selected.JAVA_MODULE\": \"21\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"onboarding.tips.debug.path\": \"C:/Users/markt/intellj/untitled/src/main/java/org/example/Main.java\",\r\n    \"project.structure.last.edited\": \"Modules\",\r\n    \"project.structure.proportion\": \"0.15\",\r\n    \"project.structure.side.proportion\": \"0.2\",\r\n    \"run.code.analysis.last.selected.profile\": \"pProject Default\",\r\n    \"scala_project_settings_configurable.last_selected_tab_index\": \"0\",\r\n    \"settings.editor.selected.configurable\": \"preferences.lookFeel\"\r\n  }\r\n}]]></component>\r\n  <component name=\"QodanaCIConfigService\">\r\n    <option name=\"ciType\" value=\"GITHUB\" />\r\n    <option name=\"path\" value=\"$PROJECT_DIR$/.github/workflows/qodana_code_quality.yml\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CreateTestDialog.Recents.Supers\">\r\n      <recent name=\"chill.gachi_game.Persons\" />\r\n    </key>\r\n    <key name=\"CreateTestDialog.RecentsKey\">\r\n      <recent name=\"chill.gachi_game\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"GachiGameDemo\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"chill.gachi_game.GachiGameDemo\" />\r\n      <module name=\"untitled.main\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"chill.gachi_game.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.GachiGameDemo\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"ScalaProjectSettings\">\r\n    <option name=\"intInjectionMapping\">\r\n      <map>\r\n        <entry key=\"html\" value=\"HTML\" />\r\n        <entry key=\"java\" value=\"JAVA\" />\r\n        <entry key=\"json\" value=\"JSON\" />\r\n        <entry key=\"json5\" value=\"JSON5\" />\r\n        <entry key=\"md\" value=\"Markdown\" />\r\n        <entry key=\"scala\" value=\"Scala\" />\r\n        <entry key=\"svg\" value=\"SVG\" />\r\n        <entry key=\"xhtml\" value=\"XHTML\" />\r\n        <entry key=\"xml\" value=\"XML\" />\r\n        <entry key=\"yaml\" value=\"yaml\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"d77e9ff8-86a6-4697-ab08-d30dc50c7f75\" name=\"Changes\" comment=\"\" />\r\n      <created>1708449842823</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1708449842823</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709476856520</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709476856520</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709661591112</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709661591112</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709661743372</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709661743372</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709663779818</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709663779818</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709664621963</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709664621963</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709930601678</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709930601678</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710069224666</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710069224666</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"8\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"origin/main\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Hello World!\" />\r\n    <MESSAGE value=\"first commit\" />\r\n    <MESSAGE value=\"1\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"1\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 91efd06653b2f74d92ff43250b8c2c45f991e2c3)
++++ b/.idea/workspace.xml	(date 1710091782792)
+@@ -5,10 +5,27 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="d77e9ff8-86a6-4697-ab08-d30dc50c7f75" name="Changes" comment="1">
+-      <change afterPath="$PROJECT_DIR$/src/main/java/chill/gachi_game/GachiGameDemo.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/chill/gachi_game/Josifs.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/chill/gachi_game/Mark.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/chill/gachi_game/Persons.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_8/math_operation/Addition.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_8/math_operation/Argument.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_8/math_operation/Book.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_8/math_operation/Division.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_8/math_operation/Library.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_8/math_operation/MathOperation.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_8/math_operation/MathOperationDemo.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_8/math_operation/MathOperationTest.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_8/math_operation/Multiplication.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_8/math_operation/Subtraction.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_8/shape/Circle.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_8/shape/Rectangle.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_8/shape/Shape.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_8/shape/ShapeTest.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_8/shape/ShapeUtil.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_8/shape/ShapeUtilDemo.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_8/shape/ShapeUtilTest.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_8/shape/Square.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_8/shape/Triangle.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_8/varags/Varargs.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_8/varags/VarargsTest.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -42,8 +59,8 @@
+     <option name="RECENT_TEMPLATES">
+       <list>
+         <option value="package-info" />
+-        <option value="Class" />
+         <option value="JUnit5 Test Class" />
++        <option value="Class" />
+       </list>
+     </option>
+   </component>
+@@ -143,7 +160,6 @@
+     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "chill.gachi_game.Persons",
+-    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+     "git-widget-placeholder": "main",
+     "ignore.virus.scanning.warn.message": "true",
+     "jdk.selected.JAVA_MODULE": "21",
+@@ -277,7 +293,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1710069224666</updated>
+     </task>
+-    <option name="localTasksCounter" value="8" />
++    <task id="LOCAL-00008" summary="1">
++      <option name="closed" value="true" />
++      <created>1710090991224</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1710090991224</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+Index: src/main/java/lesson_8/shape/ShapeUtil.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/shape/ShapeUtil.java b/src/main/java/lesson_8/shape/ShapeUtil.java
+new file mode 100644
+--- /dev/null	(date 1710091372866)
++++ b/src/main/java/lesson_8/shape/ShapeUtil.java	(date 1710091372866)
+@@ -0,0 +1,60 @@
++package lesson_8.shape;
++
++import java.util.Random;
++
++class ShapeUtil {
++    Random random = new Random();
++
++    Circle createRandomCircle() {
++        return new Circle("circle", random.nextDouble());
++    }
++
++    Square createRandomSquare() {
++        return new Square("square", random.nextDouble());
++    }
++
++    Rectangle createRandomRectangle() {
++        return new Rectangle("rectangle", random.nextDouble(), random.nextDouble());
++    }
++
++    Triangle createRandomTriangle() {
++        return new Triangle("triangle", random.nextDouble());
++    }
++
++    Shape createRandomShape() {
++        int randomNumber = random.nextInt(4);
++        if (randomNumber == 0) {
++            return createRandomCircle();
++        } else if (randomNumber == 1) {
++            return createRandomSquare();
++        } else if (randomNumber == 2) {
++            return createRandomRectangle();
++        } else {
++            return createRandomTriangle();
++        }
++    }
++
++    double calculateArea(Shape[] shapes) {
++        double result = 0;
++        for (Shape shape : shapes) {
++            result += shape.calculateArea();
++        }
++        return result;
++    }
++
++    double calculatePerimeter(Shape[] shapes) {
++        double result = 0;
++        for (Shape shape : shapes) {
++            result += shape.calculatePerimeter();
++        }
++        return result;
++    }
++
++    double calculateArea(Shape shape) {
++        return shape.calculateArea();
++    }
++
++    double calculatePerimeter(Shape shape) {
++        return shape.calculatePerimeter();
++    }
++}
+Index: src/main/java/lesson_8/shape/Square.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/shape/Square.java b/src/main/java/lesson_8/shape/Square.java
+new file mode 100644
+--- /dev/null	(date 1710091372873)
++++ b/src/main/java/lesson_8/shape/Square.java	(date 1710091372873)
+@@ -0,0 +1,21 @@
++package lesson_8.shape;
++
++class Square extends Shape {
++
++    private double side;
++
++    public Square(String title, double side) {
++        super(title);
++        this.side = side;
++    }
++
++    @Override
++    double calculateArea() {
++        return side * side;
++    }
++
++    @Override
++    double calculatePerimeter() {
++        return 4 * side;
++    }
++}
+Index: src/main/java/lesson_8/shape/ShapeUtilTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/shape/ShapeUtilTest.java b/src/main/java/lesson_8/shape/ShapeUtilTest.java
+new file mode 100644
+--- /dev/null	(date 1710091372879)
++++ b/src/main/java/lesson_8/shape/ShapeUtilTest.java	(date 1710091372879)
+@@ -0,0 +1,57 @@
++package lesson_8.shape;
++
++class ShapeUtilTest {
++    private static final String TEXT_RESET = "\u001B[0m";
++    private static final String TEXT_RED = "\u001B[31m";
++    private static final String TEXT_GREEN = "\u001B[32m";
++
++    private static int totalRun = 0;
++    private static int totalPassed = 0;
++    private static int totalFailed = 0;
++
++    private static ShapeUtil shapeUtil = new ShapeUtil();
++
++    public static void main(String[] args) {
++        Shape[] shapes = new Shape[4];
++        for (int i = 0; i < shapes.length; i++) {
++            shapes[i] = shapeUtil.createRandomShape();
++        }
++        shouldCalculateShapesAreaTest(shapes);
++        shouldCalculateShapesPerimeterTest(shapes);
++        printFooter();
++    }
++
++    private static void shouldCalculateShapesAreaTest(Shape[] shapes) {
++        totalRun++;
++        checkResult(0, shapeUtil.calculateArea(shapes), "shouldCalculateShapesAreaTest");
++    }
++
++    private static void shouldCalculateShapesPerimeterTest(Shape[] shapes) {
++        totalRun++;
++        checkResult(0, shapeUtil.calculatePerimeter(shapes), "shouldCalculateShapesPerimeterTest");
++    }
++
++    private static void checkResult(double expected, double actual, String testName) {
++        if (expected < actual) {
++            System.out.println(TEXT_GREEN + testName + " - passed" + TEXT_RESET);
++            totalPassed++;
++        } else {
++            System.out.println(TEXT_RED + testName + " - failed");
++            System.out.println("Expected is higher than: " + expected);
++            System.out.println("Actual:                  " + actual + TEXT_RESET);
++            totalFailed++;
++        }
++    }
++
++    private static void printFooter() {
++        System.out.println("********************************************");
++        if (totalFailed > 0) {
++            System.out.println(TEXT_RED + "TOTAL: RUN = " + totalRun + "; PASSED = " + totalPassed +
++                    "; FAILED = " + totalFailed + TEXT_RESET);
++        } else {
++            System.out.println(TEXT_GREEN + "TOTAL: RUN = " + totalRun + "; PASSED = " + totalPassed +
++                    "; FAILED = " + totalFailed + TEXT_RESET);
++        }
++        System.out.println("********************************************");
++    }
++}
+Index: src/main/java/lesson_8/shape/Triangle.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/shape/Triangle.java b/src/main/java/lesson_8/shape/Triangle.java
+new file mode 100644
+--- /dev/null	(date 1710091372889)
++++ b/src/main/java/lesson_8/shape/Triangle.java	(date 1710091372889)
+@@ -0,0 +1,20 @@
++package lesson_8.shape;
++
++class Triangle extends Shape {
++    private double side;
++
++    public Triangle(String title, double side) {
++        super(title);
++        this.side = side;
++    }
++
++    @Override
++    double calculateArea() {
++        return Math.sqrt(3) * side * side / 4;
++    }
++
++    @Override
++    double calculatePerimeter() {
++        return 3 * side;
++    }
++}
+Index: src/main/java/lesson_8/varags/Varargs.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/varags/Varargs.java b/src/main/java/lesson_8/varags/Varargs.java
+new file mode 100644
+--- /dev/null	(date 1710091410251)
++++ b/src/main/java/lesson_8/varags/Varargs.java	(date 1710091410251)
+@@ -0,0 +1,11 @@
++package lesson_8.varags;
++
++class Varargs {
++    public int sum(int... numbers) {
++        int result = 0;
++        for (int number : numbers) {
++            result += number;
++        }
++        return result;
++    }
++}
+Index: src/main/java/lesson_8/varags/VarargsTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/varags/VarargsTest.java b/src/main/java/lesson_8/varags/VarargsTest.java
+new file mode 100644
+--- /dev/null	(date 1710091410244)
++++ b/src/main/java/lesson_8/varags/VarargsTest.java	(date 1710091410244)
+@@ -0,0 +1,54 @@
++package lesson_8.varags;
++
++public class VarargsTest {
++    private static final String TEXT_RESET = "\u001B[0m";
++    private static final String TEXT_RED = "\u001B[31m";
++    private static final String TEXT_GREEN = "\u001B[32m";
++
++    private static int totalRun = 0;
++    private static int totalPassed = 0;
++    private static int totalFailed = 0;
++
++    private static Varargs varargs = new Varargs();
++
++    public static void main(String[] args) {
++        shouldCalculateSumTest1();
++        shouldCalculateSumTest2();
++        printFooter();
++    }
++
++    private static void shouldCalculateSumTest1() {
++        totalRun++;
++        int[] input = {1, 2, 3, 4, 5};
++        checkResult(15,  varargs.sum(input),"shouldCalculateSumTest1");
++    }
++
++    private static void shouldCalculateSumTest2() {
++        totalRun++;
++        checkResult(40,  varargs.sum(6, 7, 8, 9, 10),"shouldCalculateSumTest2");
++    }
++
++    private static void checkResult(int expected, int actual, String testName) {
++        if (expected == actual) {
++            System.out.println(TEXT_GREEN + testName + " - passed" + TEXT_RESET);
++            totalPassed++;
++        } else {
++            System.out.println(TEXT_RED + testName + " - failed");
++            System.out.println("Expected: " + expected);
++            System.out.println("Actual:   " + actual + TEXT_RESET);
++            totalFailed++;
++        }
++    }
++
++    private static void printFooter() {
++        System.out.println("********************************************");
++        if (totalFailed > 0) {
++            System.out.println(TEXT_RED + "TOTAL: RUN = " + totalRun + "; PASSED = " + totalPassed +
++                    "; FAILED = " + totalFailed + TEXT_RESET);
++        } else {
++            System.out.println(TEXT_GREEN + "TOTAL: RUN = " + totalRun + "; PASSED = " + totalPassed +
++                    "; FAILED = " + totalFailed + TEXT_RESET);
++        }
++        System.out.println("********************************************");
++    }
++}
+Index: src/main/java/lesson_8/math_operation/MathOperation.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/math_operation/MathOperation.java b/src/main/java/lesson_8/math_operation/MathOperation.java
+new file mode 100644
+--- /dev/null	(date 1710091523089)
++++ b/src/main/java/lesson_8/math_operation/MathOperation.java	(date 1710091523089)
+@@ -0,0 +1,7 @@
++package lesson_8.math_operation;
++
++abstract class MathOperation {
++
++    public abstract double calculate();
++
++}
+Index: src/main/java/lesson_8/math_operation/Argument.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/math_operation/Argument.java b/src/main/java/lesson_8/math_operation/Argument.java
+new file mode 100644
+--- /dev/null	(date 1710091555185)
++++ b/src/main/java/lesson_8/math_operation/Argument.java	(date 1710091555185)
+@@ -0,0 +1,15 @@
++package lesson_8.math_operation;
++
++class Argument extends MathOperation {
++
++    private double argument;
++
++    public Argument(double argument) {
++        this.argument = argument;
++    }
++
++    @Override
++    public double calculate() {
++        return argument;
++    }
++}
+Index: src/main/java/lesson_8/math_operation/Addition.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/math_operation/Addition.java b/src/main/java/lesson_8/math_operation/Addition.java
+new file mode 100644
+--- /dev/null	(date 1710091537298)
++++ b/src/main/java/lesson_8/math_operation/Addition.java	(date 1710091537298)
+@@ -0,0 +1,14 @@
++package lesson_8.math_operation;
++
++class Addition extends TwoArgumentMathOperation {
++
++    public Addition(MathOperation leftArgument,
++                    MathOperation rightArgument) {
++        super(leftArgument, rightArgument);
++    }
++
++    @Override
++    public double calculate() {
++        return calculateLeftSide() + calculateRightSide();
++    }
++}
+Index: src/main/java/lesson_8/math_operation/MathOperationDemo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/math_operation/MathOperationDemo.java b/src/main/java/lesson_8/math_operation/MathOperationDemo.java
+new file mode 100644
+--- /dev/null	(date 1710091590130)
++++ b/src/main/java/lesson_8/math_operation/MathOperationDemo.java	(date 1710091590130)
+@@ -0,0 +1,41 @@
++package lesson_8.math_operation;
++
++class MathOperationDemo {
++
++    public static void main(String[] args) {
++        // build and calculate: 10 + 20
++        Argument arg1 = new Argument(10);
++        Argument arg2 = new Argument(20);
++        MathOperation addition = new Addition(arg1, arg2);
++        System.out.println("Left side Addition result = " + addition.calculate());
++
++        // build and calculate: 50 - 20
++        Argument arg3 = new Argument(50);
++        Argument arg4 = new Argument(20);
++        MathOperation subtraction = new Subtraction(arg3, arg4);
++        System.out.println("Right side Subtraction result = " + subtraction.calculate());
++
++        // build and calculate: (10 + 20) + (50 - 20)
++        MathOperation addition1 = new Addition(addition, subtraction);
++        System.out.println("Final Addition result = " + addition1.calculate());
++
++        System.out.println();
++
++        // build and calculate: (10 - 5)
++        Argument arg5 = new Argument(10);
++        Argument arg6 = new Argument(5);
++        MathOperation subtraction1 = new Subtraction(arg5, arg6);
++        System.out.println("Left side Subtraction result = " + subtraction1.calculate());
++
++        // build and calculate: (20 / 5)
++        Argument arg7 = new Argument(20);
++        Argument arg8 = new Argument(5);
++        MathOperation division = new Division(arg7, arg8);
++        System.out.println("Right side Division result = " + division.calculate());
++
++        // build and calculate: (10 - 5) * (20 / 5)
++        MathOperation multiplication = new Multiplication(subtraction1, division);
++        System.out.println("Final Multiplication result = " + multiplication.calculate());
++    }
++
++}
+Index: src/main/java/lesson_8/math_operation/Division.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/math_operation/Division.java b/src/main/java/lesson_8/math_operation/Division.java
+new file mode 100644
+--- /dev/null	(date 1710091567322)
++++ b/src/main/java/lesson_8/math_operation/Division.java	(date 1710091567322)
+@@ -0,0 +1,13 @@
++package lesson_8.math_operation;
++
++class Division extends TwoArgumentMathOperation {
++    public Division(MathOperation leftArgument, MathOperation rightArgument) {
++        super(leftArgument, rightArgument);
++    }
++
++    @Override
++    public double calculate() {
++        double denominator = calculateRightSide();
++        return (denominator == 0) ? Double.MAX_VALUE : calculateLeftSide() / denominator;
++    }
++}
+Index: src/main/java/lesson_8/math_operation/Multiplication.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/math_operation/Multiplication.java b/src/main/java/lesson_8/math_operation/Multiplication.java
+new file mode 100644
+--- /dev/null	(date 1710091692451)
++++ b/src/main/java/lesson_8/math_operation/Multiplication.java	(date 1710091692451)
+@@ -0,0 +1,12 @@
++package lesson_8.math_operation;
++
++class Multiplication extends TwoArgumentMathOperation {
++    public Multiplication(MathOperation leftArgument, MathOperation rightArgument) {
++        super(leftArgument, rightArgument);
++    }
++
++    @Override
++    public double calculate() {
++        return calculateLeftSide() * calculateRightSide();
++    }
++}
+\ No newline at end of file
+Index: src/main/java/lesson_8/math_operation/MathOperationTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/math_operation/MathOperationTest.java b/src/main/java/lesson_8/math_operation/MathOperationTest.java
+new file mode 100644
+--- /dev/null	(date 1710091604569)
++++ b/src/main/java/lesson_8/math_operation/MathOperationTest.java	(date 1710091604569)
+@@ -0,0 +1,60 @@
++package lesson_8.math_operation;
++
++class MathOperationTest {
++    private static final String TEXT_RESET = "\u001B[0m";
++    private static final String TEXT_RED = "\u001B[31m";
++    private static final String TEXT_GREEN = "\u001B[32m";
++
++    private static int totalRun = 0;
++    private static int totalPassed = 0;
++    private static int totalFailed = 0;
++
++    public static void main(String[] args) {
++        shouldMultiplyTwoNumbersTest();
++        shouldDivideTwoNumbersTest();
++        shouldProceedDivisionByZeroTest();
++        printFooter();
++    }
++
++    private static void shouldMultiplyTwoNumbersTest() {
++        totalRun++;
++        MathOperation operation = new Multiplication(new Argument(2), new Argument(3));
++        checkResult(6, operation.calculate(), "shouldMultiplyTwoNumbersTest");
++    }
++
++    private static void shouldDivideTwoNumbersTest() {
++        totalRun++;
++        MathOperation operation = new Division(new Argument(9), new Argument(2));
++        checkResult(4.5, operation.calculate(), "shouldDivideTwoNumbersTest");
++    }
++
++    private static void shouldProceedDivisionByZeroTest() {
++        totalRun++;
++        MathOperation operation = new Division(new Argument(9), new Argument(0));
++        checkResult(Double.MAX_VALUE, operation.calculate(), "shouldProceedDivisionByZeroTest");
++    }
++
++    private static void checkResult(double expected, double actual, String testName) {
++        if (expected == actual) {
++            System.out.println(TEXT_GREEN + testName + " - passed" + TEXT_RESET);
++            totalPassed++;
++        } else {
++            System.out.println(TEXT_RED + testName + " - failed");
++            System.out.println("Expected: " + expected);
++            System.out.println("Actual:   " + actual + TEXT_RESET);
++            totalFailed++;
++        }
++    }
++
++    private static void printFooter() {
++        System.out.println("********************************************");
++        if (totalFailed > 0) {
++            System.out.println(TEXT_RED + "TOTAL: RUN = " + totalRun + "; PASSED = " + totalPassed +
++                    "; FAILED = " + totalFailed + TEXT_RESET);
++        } else {
++            System.out.println(TEXT_GREEN + "TOTAL: RUN = " + totalRun + "; PASSED = " + totalPassed +
++                    "; FAILED = " + totalFailed + TEXT_RESET);
++        }
++        System.out.println("********************************************");
++    }
++}
+Index: src/main/java/lesson_8/math_operation/Subtraction.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/math_operation/Subtraction.java b/src/main/java/lesson_8/math_operation/Subtraction.java
+new file mode 100644
+--- /dev/null	(date 1710091641530)
++++ b/src/main/java/lesson_8/math_operation/Subtraction.java	(date 1710091641530)
+@@ -0,0 +1,14 @@
++package lesson_8.math_operation;
++
++class Subtraction extends TwoArgumentMathOperation {
++
++    public Subtraction(MathOperation leftArgument,
++                       MathOperation rightArgument) {
++        super(leftArgument, rightArgument);
++    }
++
++    @Override
++    public double calculate() {
++        return calculateLeftSide() - calculateRightSide();
++    }
++}
+\ No newline at end of file
+Index: src/main/java/lesson_8/math_operation/Library.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/math_operation/Library.java b/src/main/java/lesson_8/math_operation/Library.java
+new file mode 100644
+--- /dev/null	(date 1710091782457)
++++ b/src/main/java/lesson_8/math_operation/Library.java	(date 1710091782457)
+@@ -0,0 +1,9 @@
++package lesson_8.math_operation;
++
++class Library {
++    private double penaltyPerDay;
++    private Book[] books;
++    private Reader[] readers;
++    private ReaderCard[] readerCards;
++    private Reservation[] reservations;
++}
+Index: src/main/java/lesson_8/math_operation/Book.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/math_operation/Book.java b/src/main/java/lesson_8/math_operation/Book.java
+new file mode 100644
+--- /dev/null	(date 1710091763951)
++++ b/src/main/java/lesson_8/math_operation/Book.java	(date 1710091763951)
+@@ -0,0 +1,11 @@
++package lesson_8.math_operation;
++
++import java.time.LocalDate;
++class Book {
++    private long id;
++    private String title;
++    private String author;
++    private String genre;
++    private LocalDate releaseDate;
++    private boolean isAvailable;
++}
+Index: src/main/java/lesson_8/math_operation/Reader.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/math_operation/Reader.java b/src/main/java/lesson_8/math_operation/Reader.java
+new file mode 100644
+--- /dev/null	(date 1710091824436)
++++ b/src/main/java/lesson_8/math_operation/Reader.java	(date 1710091824436)
+@@ -0,0 +1,10 @@
++package lesson_8.math_operation;
++
++class Reader {
++    private long id;
++    private String name;
++    private String surname;
++    private String address;
++    private String email;
++    private String phone;
++}
+Index: src/main/java/lesson_8/math_operation/Penalty.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/math_operation/Penalty.java b/src/main/java/lesson_8/math_operation/Penalty.java
+new file mode 100644
+--- /dev/null	(date 1710091803818)
++++ b/src/main/java/lesson_8/math_operation/Penalty.java	(date 1710091803818)
+@@ -0,0 +1,10 @@
++package lesson_8.math_operation;
++
++import java.time.LocalDate;
++
++class Penalty {
++    private long id;
++    private Book book;
++    private double amount;
++    private LocalDate dueDate;
++}
+Index: src/main/java/lesson_8/math_operation/ReaderCardEntry.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/math_operation/ReaderCardEntry.java b/src/main/java/lesson_8/math_operation/ReaderCardEntry.java
+new file mode 100644
+--- /dev/null	(date 1710091859167)
++++ b/src/main/java/lesson_8/math_operation/ReaderCardEntry.java	(date 1710091859167)
+@@ -0,0 +1,9 @@
++package lesson_8.math_operation;
++
++import java.time.LocalDate;
++class ReaderCardEntry {
++    private long id;
++    private Book book;
++    private LocalDate startDate;
++    private LocalDate dueDate;
++}
+Index: src/main/java/lesson_8/math_operation/ReaderCard.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/math_operation/ReaderCard.java b/src/main/java/lesson_8/math_operation/ReaderCard.java
+new file mode 100644
+--- /dev/null	(date 1710091834691)
++++ b/src/main/java/lesson_8/math_operation/ReaderCard.java	(date 1710091834691)
+@@ -0,0 +1,9 @@
++package lesson_8.math_operation;
++
++class ReaderCard {
++    private long id;
++    private Reader reader;
++    private Book[] takenBooks;
++    private ReaderCardEntry[] readerCardEntries;
++    private Penalty[] penalties;
++}
+Index: src/main/java/lesson_8/math_operation/Reservation.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/math_operation/Reservation.java b/src/main/java/lesson_8/math_operation/Reservation.java
+new file mode 100644
+--- /dev/null	(date 1710091894856)
++++ b/src/main/java/lesson_8/math_operation/Reservation.java	(date 1710091894856)
+@@ -0,0 +1,9 @@
++package lesson_8.math_operation;
++
++import java.time.LocalDate;
++class Reservation {
++    private long id;
++    private Reader reader;
++    private Book book;
++    private LocalDate reservationDueDate;
++}
+Index: src/main/java/lesson_8/shape/Circle.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/shape/Circle.java b/src/main/java/lesson_8/shape/Circle.java
+new file mode 100644
+--- /dev/null	(date 1710091372859)
++++ b/src/main/java/lesson_8/shape/Circle.java	(date 1710091372859)
+@@ -0,0 +1,21 @@
++package lesson_8.shape;
++
++class Circle extends Shape {
++
++    private double radius;
++
++    Circle(String title, double radius) {
++        super(title);
++        this.radius = radius;
++    }
++
++    @Override
++    double calculateArea() {
++        return Math.PI * (radius * radius);
++    }
++
++    @Override
++    double calculatePerimeter() {
++        return 2 * Math.PI * radius;
++    }
++}
+Index: src/main/java/lesson_8/shape/Shape.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/shape/Shape.java b/src/main/java/lesson_8/shape/Shape.java
+new file mode 100644
+--- /dev/null	(date 1710091372831)
++++ b/src/main/java/lesson_8/shape/Shape.java	(date 1710091372831)
+@@ -0,0 +1,13 @@
++package lesson_8.shape;
++
++abstract class Shape {
++    private String title;
++
++    Shape(String title) {
++        this.title = title;
++    }
++
++    abstract double calculateArea();
++
++    abstract double calculatePerimeter();
++}
+Index: src/main/java/lesson_8/shape/ShapeTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/shape/ShapeTest.java b/src/main/java/lesson_8/shape/ShapeTest.java
+new file mode 100644
+--- /dev/null	(date 1710091372883)
++++ b/src/main/java/lesson_8/shape/ShapeTest.java	(date 1710091372883)
+@@ -0,0 +1,95 @@
++package lesson_8.shape;
++
++class ShapeTest {
++    private static final String TEXT_RESET = "\u001B[0m";
++    private static final String TEXT_RED = "\u001B[31m";
++    private static final String TEXT_GREEN = "\u001B[32m";
++
++    private static int totalRun = 0;
++    private static int totalPassed = 0;
++    private static int totalFailed = 0;
++
++    public static void main(String[] args) {
++        shouldCalculateCircleAreaTest();
++        shouldCalculateCirclePerimeterTest();
++        shouldCalculateSquareAreaTest();
++        shouldCalculateSquarePerimeterTest();
++        shouldCalculateRectangleAreaTest();
++        shouldCalculateRectanglePerimeterTest();
++        shouldCalculateTriangleAreaTest();
++        shouldCalculateTrianglePerimeterTest();
++        printFooter();
++    }
++
++    private static void shouldCalculateCircleAreaTest() {
++        totalRun++;
++        Shape shape = new Circle("circle", 2);
++        checkResult(12.566370614359172, shape.calculateArea(), "shouldCalculateCircleAreaTest");
++    }
++
++    private static void shouldCalculateCirclePerimeterTest() {
++        totalRun++;
++        Shape shape = new Circle("circle", 3);
++        checkResult(18.84955592153876, shape.calculatePerimeter(), "shouldCalculateCirclePerimeterTest");
++    }
++
++    private static void shouldCalculateSquareAreaTest() {
++        totalRun++;
++        Shape shape = new Square("square", 3);
++        checkResult(9, shape.calculateArea(), "shouldCalculateSquareAreaTest");
++    }
++
++    private static void shouldCalculateSquarePerimeterTest() {
++        totalRun++;
++        Shape shape = new Square("square", 3);
++        checkResult(12, shape.calculatePerimeter(), "shouldCalculateSquarePerimeterTest");
++    }
++
++    private static void shouldCalculateRectangleAreaTest() {
++        totalRun++;
++        Shape shape = new Rectangle("rectangle", 3, 2);
++        checkResult(6, shape.calculateArea(), "shouldCalculateRectangleAreaTest");
++    }
++
++    private static void shouldCalculateRectanglePerimeterTest() {
++        totalRun++;
++        Shape shape = new Rectangle("rectangle", 3, 2);
++        checkResult(10, shape.calculatePerimeter(), "shouldCalculateRectanglePerimeterTest");
++    }
++
++    private static void shouldCalculateTriangleAreaTest() {
++        totalRun++;
++        Shape shape = new Triangle("triangle", 3);
++        checkResult(3.897114317029974, shape.calculateArea(), "shouldCalculateTriangleAreaTest");
++    }
++
++    private static void shouldCalculateTrianglePerimeterTest() {
++        totalRun++;
++        Shape shape = new Triangle("triangle", 3);
++        checkResult(9, shape.calculatePerimeter(), "shouldCalculateTrianglePerimeterTest");
++    }
++
++    private static void checkResult(double expected, double actual, String testName) {
++        if (expected == actual) {
++            System.out.println(TEXT_GREEN + testName + " - passed" + TEXT_RESET);
++            totalPassed++;
++        } else {
++            System.out.println(TEXT_RED + testName + " - failed");
++            System.out.println("Expected: " + expected);
++            System.out.println("Actual:   " + actual + TEXT_RESET);
++            totalFailed++;
++        }
++    }
++
++    private static void printFooter() {
++        System.out.println("********************************************");
++        if (totalFailed > 0) {
++            System.out.println(TEXT_RED + "TOTAL: RUN = " + totalRun + "; PASSED = " + totalPassed +
++                    "; FAILED = " + totalFailed + TEXT_RESET);
++        } else {
++            System.out.println(TEXT_GREEN + "TOTAL: RUN = " + totalRun + "; PASSED = " + totalPassed +
++                    "; FAILED = " + totalFailed + TEXT_RESET);
++        }
++        System.out.println("********************************************");
++    }
++}
+Index: src/main/java/lesson_8/shape/Rectangle.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/lesson_8/shape/Rectangle.java b/src/main/java/lesson_8/shape/Rectangle.java
+new file mode 100644
+--- /dev/null	(date 1710091372895)
++++ b/src/main/java/lesson_8/shape/Rectangle.java	(date 1710091372895)
+@@ -0,0 +1,22 @@
++package lesson_8.shape;
++
++class Rectangle extends Shape {
++    private double length;
++    private double width;
++
++    public Rectangle(String title, double length, double width) {
++        super(title);
++        this.length = length;
++        this.width = width;
++    }
++
++    @Override
++    double calculateArea() {
++        return length * width;
++    }
++
++    @Override
++    double calculatePerimeter() {
++        return 2 * (length + width);
++    }
++}
