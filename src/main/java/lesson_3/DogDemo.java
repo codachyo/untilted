@@ -19,6 +19,7 @@ public class DogDemo {
         sharik.happyBirthday();
         sharik.happyBirthday();
         sharik.happyBirthday();
+
         System.out.println(sharik.age);
         System.out.println(rex.age);
     }

@@ -9,7 +9,7 @@ public class HomeWorkLesson2 {
         Scanner scanner = new Scanner(System.in);
 
         // Массив для хранения имен
-        String[] names = new String[5];
+        String[] names = new String[5555555];
 
         // Цикл для запроса имен у пользователя
         for (int i = 0; i < names.length; i++) {

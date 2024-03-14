@@ -12,3 +12,5 @@ class Addition extends TwoArgumentMathOperation {
         return calculateLeftSide() + calculateRightSide();
     }
 }
+
+

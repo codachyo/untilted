@@ -4,6 +4,7 @@ public class Dog {
     String name;
     int age;
     boolean isHungry;
+
     Dog(String name) {
         this.name = name;
         this.age = 0;
@@ -18,7 +19,8 @@ public class Dog {
     void eat() {
         isHungry = false;
     }
-    void happyBirthday(){
+
+    void happyBirthday() {
         age++;
     }
 }
