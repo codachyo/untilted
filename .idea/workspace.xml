@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d77e9ff8-86a6-4697-ab08-d30dc50c7f75" name="Changes" comment="2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chill/HomeWorkLesson2Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chill/HomeWorkLesson2Update.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_2/HomeWorkLesson2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_2/HomeWorkLesson2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_3/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_3/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_3/DogDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_3/DogDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_3/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_3/MobilePhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_3/ObjectsMobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_3/ObjectsMobilePhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_3/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_3/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_8/math_operation/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_8/math_operation/Addition.java" afterDir="false" />
-    </list>
+    <list default="true" id="d77e9ff8-86a6-4697-ab08-d30dc50c7f75" name="Changes" comment="2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,77 +83,77 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayDefinition2.executor": "Run",
-    "Application.ArrayLength2.executor": "Run",
-    "Application.BankSystem.executor": "Run",
-    "Application.BookDemo.executor": "Run",
-    "Application.Calc.executor": "Run",
-    "Application.CalculatorTest.executor": "Run",
-    "Application.Chill.executor": "Run",
-    "Application.DogDemo.executor": "Run",
-    "Application.FizzBuzzTest.executor": "Run",
-    "Application.GachiGameDemo.executor": "Run",
-    "Application.GuessNumber.executor": "Run",
-    "Application.HomeWork.executor": "Run",
-    "Application.HomeWorkLesson2.executor": "Run",
-    "Application.HomeWorkLesson2Update.executor": "Run",
-    "Application.IfElse.executor": "Run",
-    "Application.LoginService.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MyScanner.executor": "Run",
-    "Application.ObjectsMobilePhone.executor": "Run",
-    "Application.PowerCalculatorTest.executor": "Run",
-    "Application.Practice.executor": "Run",
-    "Application.Randomizer.executor": "Run",
-    "Application.RobotDemo.executor": "Run",
-    "Application.ShapeTest.executor": "Run",
-    "Application.SumTwoNumbers.executor": "Run",
-    "Application.SwitchCase.executor": "Run",
-    "Application.SwitchCaseUpdate.executor": "Run",
-    "Application.Task_1.executor": "Run",
-    "Application.Task_11.executor": "Run",
-    "Application.Task_2.executor": "Run",
-    "Application.Task_3.executor": "Run",
-    "Application.Task_30.executor": "Run",
-    "Application.Task_5.executor": "Run",
-    "Application.Task_6.executor": "Run",
-    "Application.Task_7.executor": "Run",
-    "Application.TicTacToe.executor": "Run",
-    "Application.WhileDefinition1.executor": "Run",
-    "Application.WhileDefinition2.executor": "Run",
-    "Application.WhileDefinition4.executor": "Run",
-    "Application.WhileDefinition5.executor": "Run",
-    "Application.YEsNo.executor": "Run",
-    "Application.chill.executor": "Run",
-    "Application.lol.executor": "Run",
-    "Application.myScanner.executor": "Run",
-    "Application.task_10.executor": "Run",
-    "Application.task_11.executor": "Run",
-    "Application.test.executor": "Run",
-    "Gradle.untitled [:Main.main()].executor": "Run",
-    "Gradle.untitled [:test.main()].executor": "Run",
-    "Gradle.untitled.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "chill.gachi_game.Persons",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/markt/intellj/untitled/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "scala_project_settings_configurable.last_selected_tab_index": "0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayDefinition2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayLength2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BookDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calc.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CalculatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Chill.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DogDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FizzBuzzTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GachiGameDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GuessNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HomeWork.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HomeWorkLesson2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HomeWorkLesson2Update.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IfElse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginService.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyScanner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectsMobilePhone.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PowerCalculatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Randomizer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RobotDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShapeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumTwoNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwitchCase.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwitchCaseUpdate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task_11.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task_30.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task_5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task_6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task_7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TicTacToe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WhileDefinition1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WhileDefinition2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WhileDefinition4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WhileDefinition5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.YEsNo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.chill.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lol.executor&quot;: &quot;Run&quot;,
+    &quot;Application.myScanner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task_10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task_11.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:test.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;chill.gachi_game.Persons&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/markt/intellj/untitled/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;scala_project_settings_configurable.last_selected_tab_index&quot;: &quot;0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="QodanaCIConfigService">
     <option name="ciType" value="GITHUB" />
     <option name="path" value="$PROJECT_DIR$/.github/workflows/qodana_code_quality.yml" />
@@ -211,13 +201,6 @@
         <entry key="yaml" value="yaml" />
       </map>
     </option>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -316,7 +299,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
